@@ -1,2 +1,3 @@
-![Screenshot (2)](https://github.com/maneesh9392/ecommercewebsite/assets/135041102/897b932c-4995-4437-a2aa-d10e9ec7a388)
+![Screenshot (30)](https://github.com/maneesh9392/ecommercewebsite/assets/135041102/0679f60d-729d-44b0-b682-6cf0df63bcf5)
+
 
