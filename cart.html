@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - SmartShopping| E commerce website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,100;1,200;1,300;1,500&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/3536452-removebg-preview.png" width="200px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    
+    
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+
+    </div>
+
+
+
+<!-------cart product details----------->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Sub Total</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-1.jpg" alt="">
+                    <div class="item-data">
+                        <p>Red Printed Tshirt</p> 
+                        <small>price: 499Rs</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>499Rs</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-2.jpg" alt="">
+                    <div class="item-data">
+                        <p>Hrx shoes</p> 
+                        <small>price: 1359Rs</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>1359Rs</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/buy-3.jpg" alt="">
+                    <div class="item-data">
+                        <p>Grey track pant</p> 
+                        <small>price: 699Rs</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>699Rs</td>
+        </tr>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Sub Total</td>
+                <td>2557Rs</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>25.57Rs</td>
+            </tr>
+            <tr>
+                <td>Total Price</td>
+                <td>2583.57Rs</td>
+            </tr>
+        </table>
+    </div>
+</div>
+    
+<!------------title----------->
+    
+
+
+
+<!------------products---------->
+
+
+   
+        
+<!------------js for menutoggle----------->
+
+      <script>
+        var MenuItems=document.getElementById("MenuItems")
+        MenuItems.style.maxHeight="0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight=="0px")
+            {
+                MenuItems.style.maxHeight="200px";
+            }
+            else{
+                MenuItems.style.maxHeight="0px"
+            }
+        }
+      </script>
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download app for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/app-store.png" alt="">
+                    <img src="images/play-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/3536452-removebg-preview.png" alt="">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam delectus!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Smartshop</p>
+    </div>
+</div>
+
